@@ -1,0 +1,1005 @@
+html {
+  height: 100%;
+}
+
+body {
+  color: #474b50;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.main {
+  background: url(img/lin.png) bottom repeat-x;
+}
+
+.page .main {
+  background: url(img/lin2.png) bottom repeat-x;
+}
+
+a {
+  text-decoration: underline;
+  color: #474b50;
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 13px;
+}
+
+p {
+  margin: 0;
+}
+
+.first>a {
+  display: block;
+  margin-top: 12px;
+}
+
+.first {
+  float: left;
+  height: 98px;
+}
+
+header {
+  width: 1185px;
+  height: 142px;
+  margin: 0 auto;
+  overflow: visible;
+}
+
+footer {
+  width: 1185px;
+  height: 142px;
+  margin: 0 auto;
+  overflow: visible;
+  position: relative;
+}
+
+.logo {
+  background: url("img/icon1.png") no-repeat scroll 0 0 transparent;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-left: 86px;
+  padding-bottom: 2px;
+  margin-top: 26px;
+  margin-left: 5px;
+  float: left;
+  width: 346px;
+  letter-spacing: -1px;
+}
+
+.logo.bottom {
+  background: url("img/icon2.png") no-repeat scroll 0 0 transparent;
+}
+
+.menu {
+  margin-top: 44px;
+  height: 22px;
+}
+
+header .menu {
+  margin-top: 65px;
+}
+
+.menu ul {
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  position: relative;
+  height: 25px;
+  float: left;
+  list-style-image: none!important;
+  list-style-type: none!important;
+}
+
+.menu a {
+  font-size: 20px;
+  font-weight: 300;
+  margin-right: 34px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/*Стили выпадающего меню*/
+.menu .menu1 {
+  display: none;
+  position: absolute;
+  background: #fff;
+  float: left;
+  border: 1px solid #efefef;
+  z-index: 100;
+  top: 25px;
+  padding: 8px 23px 13px;
+}
+
+.menu li.dropdown:hover .menu1 {
+  display: block;
+}
+
+.menu ul.menu1 li {
+  white-space: nowrap;
+  width: 100%;
+  border-bottom: 1px solid #efefef;
+  height: 26px;
+  margin-top: 11px;
+}
+
+ul.menu1 li:last-child {
+  border-bottom-width: 0;
+}
+
+header .menu ul.menu1 li a {
+  margin-right: 0;
+}
+
+ul.menu1 li a:hover {
+  border-bottom-width: 0;
+}
+
+.enter {
+  float: right;
+  font-size: 11px;
+  width: 141px;
+  color: #676d73;
+  margin-top: 56px;
+}
+
+.enter a {
+  color: #0b7e02;
+  font-size: 20px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 20px;
+  height: 28px;
+  width: 139px;
+  border-bottom: 1px solid #0b7e02;
+}
+
+.menu a:hover, .menu a.active {
+  border-bottom: 2px solid #0b7e02;
+}
+
+header .menu a {
+  color: #0566a3;
+  margin-right: 22px;
+  font-size: 16px;
+  float: left;
+  height: 23px;
+}
+
+#content {
+  width: 901px;
+  margin: 0 auto;
+  padding-left: 102px;
+  padding-right: 182px;
+  text-align: left;
+}
+
+#content h1 {
+  font-size: 54px;
+  font-weight: 300;
+  margin-bottom: 57px;
+  margin-top: 102px;
+  text-transform: uppercase;
+  margin-left: -2px;
+}
+
+#content h3 {
+  margin: 0;
+  font-weight: 300;
+  font-size: 31px;
+  line-height: 33px;
+}
+
+h3.clean {
+  margin-top: 23px!important;
+  float: left;
+  clear: both;
+}
+
+.inclean {
+  background: #f2f5f7;
+  margin-top: 18px;
+  border: 1px solid #b7d0d9;
+  clear: both;
+  float: left;
+  width: 740px;
+  position: relative;
+}
+
+.inclean h3 {
+  padding-left: 43px;
+  padding-top: 30px;
+}
+
+.inclean>span {
+  float: left;
+  clear: both;
+  color: #217fbb;
+  font-style: italic;
+  padding: 2px 0 15px 43px;
+}
+
+.inclean .questions .line {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/*Общие стили разметки*/
+.zag {
+  margin-top: 32px;
+} 
+/*Отступ заголовка, но не всегда это может относиться к элементу p2*/
+.p2 {
+  width: 100%;
+  clear: both;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.p2>div {
+  width: 593.5px;
+  float: left;
+  font-size: 31px;
+  line-height: 35px;
+}
+
+.p2>div:nth-child(2) {
+  width: 591.5px;
+}
+
+.p2>div:nth-child(2) h2 {
+  padding: 14px 0px 18px 43px;
+}
+
+.p2>div:nth-child(2) p {
+  padding-left: 43px;
+}
+
+.p2 h2 {
+  font-weight: normal;
+  background: #F6F6F6;
+  font-size: 31px;
+  line-height: 35px;
+  padding: 14px 0px 18px 15px;
+  margin: 0 0 25px 0;
+} 
+/*На всякий случай повторяем стили шрифта, чтобы при необходимости их было удобно менять*/
+
+/*Поначалу будут общие, а потом если нужно разделим*/
+.p2>div:first-child h2 {
+  color: #fff;
+  background: #217FBB;
+}
+
+/*Стили для разноцветных таблиц с бордерами*/
+.t1 {
+  clear: both;
+  float: left;
+  width: 100%;
+  margin-top: 10px;
+  position: relative;
+  margin-bottom: 23px;
+  border: 1px solid #B7D0D9;
+  background: url(img/blue1.png) left repeat-y;
+}
+
+.number {
+  position: absolute;
+  background: #217FBB;
+  right: 0;
+  top: 0;
+  color: #fff;
+  font-weight: bold;
+  height: 36px;
+  width: 36px!important;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 7px 0 0 0!important;
+}
+
+.t1>div {
+  float: left;
+  width: 50%;
+  padding: 46px 0 50px;
+}
+
+.t1 p {
+  font-size: 20px;
+  margin-left: 43px!important;
+} 
+/* Пишем сюда отступ второго столбца "таблицы" */
+.t1 h3 {
+  padding-bottom: 15px;
+  padding-right: 27px;
+  margin-left: 43px!important;
+} 
+/* Пишем сюда отступ второго столбца "таблицы" */
+
+/*Дополнительные стили для t1 play и t2 play*/
+.t2.play {
+  background: url("img/blue1.png") repeat-y;
+}
+
+.t2.play>div {
+  clear: both;
+  float: left;
+} 
+/*Устанавливаем единообразные стили для каждого из внутренних контейнеров*/
+.t1.play h3 {
+  padding: 13px 0 12px 75px;
+  background: url(img/play1.png) no-repeat;
+  padding-right: 27px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  height: 57px;
+} 
+/*!!*/
+.t1.yellow.play h3 {
+  background: url(img/play2.png) no-repeat;
+}
+
+.t1.green.play h3 {
+  background: url(img/play3.png) no-repeat;
+}
+
+.t1.play p {
+  color: #474b50;
+  font-size: 18px;
+  line-height: 27px;
+  padding-right: 27px;
+  margin-top: 35px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  white-space: normal;
+}
+
+/*Второй вариант "таблицы", которая уже не будет "таблицей" - здесь будет идти список уроков*/
+.t2 {
+  clear: both;
+  float: left;
+  border: 1px solid #B7D0D9;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 23px;
+  position: relative;
+  background: url("img/blue1.png") repeat-y;
+  padding: 36px 0;
+}
+
+.t2 .lesson {
+  float: left;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.t2 .lesson:hover {
+  background: #E8EDF1;
+}
+
+.t2 p {
+  color: #217FBB;
+  line-height: 21px;
+  width: 50%;
+  float: left;
+  padding-left: 43px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.t2 a {
+  text-decoration: none;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.t2 a:hover {
+  text-decoration: underline;
+}
+
+/*Стили t2, у которого есть внутреннее содержимое*/
+.ins>div {
+  clear: both;
+  float: left;
+  width: 100%;
+} 
+/*Устанавливаем единообразные стили для каждого из внутренних контейнеров*/
+.t2 h3 {
+  font-size: 31px;
+  line-height: 35px;
+  padding-right: 27px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  width: 50%;
+  float: left;
+} 
+/* Пишем сюда отступ второго столбца "таблицы" */
+div.info {
+  margin-top: 23px;
+  margin-bottom: 33px;
+}
+
+.t2.ins p {
+  color: #474b50;
+  font-size: 18px;
+  line-height: 27px;
+  padding-right: 27px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.pics {
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.pic {
+  width: 50%;
+  float: left;
+  text-align: center;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  padding-right: 27px;
+}
+
+.pic .in {
+  background: #FCFDFD;
+  float: left;
+}
+
+.pic img {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 13px 13px 0;
+}
+
+.pic span {
+  font-size: 18px;
+  color: #217fbb;
+  font-style: italic;
+  float: left;
+  clear: both;
+  padding: 7px 0 13px 13px;
+}
+
+/*Стили для линеек вопросов*/
+.questions {
+  width: 100%;
+  margin-top: 23px;
+  margin-bottom: 23px;
+}
+
+.questions .line {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  padding-right: 27px;
+}
+
+table.inside {
+  width:100%;
+  border-spacing:1px;
+  background:#BCCAD5;
+}
+
+td.verh {
+  vertical-align:top;
+}
+
+.n1 {
+  font-size: 34px;
+  line-height: 42px;
+  margin-bottom: 18px;
+  margin-top: 22px;
+}
+
+.n1 span {
+  border-bottom: 2px solid #0566a3;
+  padding: 0 15px;
+}
+
+.p1 {
+  font-size: 21px;
+  font-weight: 700;
+}
+
+.questions .line>span {
+  font-size: 20px;
+  margin-top: 12px;
+  display: inline-block;
+}
+
+.label_radio input {
+  display: none;
+}
+
+.label_radio {
+  background: url("img/var.png") no-repeat scroll 0px 2px transparent;
+  font-size: 21px;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 6px;
+  padding-left: 23px;
+  display: block;
+}
+
+.label_radio.r_on {
+  background: url("img/var2.png") no-repeat scroll 0px 2px transparent;
+}
+
+/*Wrong answer*/
+.label_radio2 input {
+  display: none;
+}
+
+.label_radio2 {
+  background: url("img/var.png") no-repeat scroll 0px 2px transparent;
+  font-size: 21px;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 6px;
+  padding-left: 23px;
+  display: block;
+}
+
+.label_radio2.r_on {
+  background: url("img/var2.png") no-repeat scroll 0px 2px transparent;
+  color: #9f2004;
+}
+
+.label_radio2 span {
+  display: inline-block;
+}
+
+.label_radio2.r_on span {
+  background: url(img/wrong.png) right 0px no-repeat;
+  padding: 0 26px 4px 0;
+} 
+
+/*Right answer*/
+.label_radio3 input {
+  display: none;
+}
+
+.label_radio3 {
+  background: url("img/var.png") no-repeat scroll 0px 2px transparent;
+  font-size: 21px;
+  font-weight: 700;
+  height: 30px;
+  margin-bottom: 6px;
+  padding-left: 23px;
+  display: block;
+}
+
+.label_radio3.r_on {
+  background: url("img/var2.png") no-repeat scroll 0px 2px transparent;
+  color: #0a7d02;
+}
+
+.label_radio3 span {
+  display: inline-block;
+}
+
+.label_radio3.r_on span {
+  background: url(img/right.png) right 0px no-repeat;
+  padding: 0 26px 4px 0;
+}
+
+.play h4 {
+  font-weight: normal;
+  font-size: 31px;
+  line-height: 35px;
+  padding-right: 27px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  width: 50%;
+  float: left;
+  margin: 0;
+}
+
+.play h5 {
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 27px;
+  padding-right: 27px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  width: 50%;
+  float: left;
+  margin: 19px 0;
+}
+
+.t2.play>div.seg {
+  width: 100%;
+} 
+/*Стили для сегмента разделения*/
+.t2.play div.seg.bord>div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  padding-right: 27px;
+}
+
+.t2.play div.seg.bord h5 {
+  border-top: 4px solid #000; /*Бордер для разделения*/
+  padding: 55px 0 0;
+  margin: 28px 0 19зч;
+  width: auto;
+}
+.t2.play p {
+  color: #474b50;
+  white-space: normal;
+  padding-right: 27px;
+}
+
+.t2 div.seg p:nth-child(2) {
+  width: 50%;
+}
+
+.seg>table {
+  font-size: 21px;
+  font-weight: bold;
+  color: #474b50;
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  padding-right: 27px;
+  margin: 15px 0 37px;
+}
+
+.seg>table table td {
+  background: #FCFDFD;
+  padding: 25px 0 25px 31px;
+  line-height: 26px;
+}
+
+.t2.play .rem {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding-left: 43px;
+  padding-right: 27px;
+}
+
+.t2.play .rem>div {
+  background: #FCFDFD;
+  margin-top: 22px;
+}
+
+.t2.play .rem .p1 {
+  padding: 18px 0 17px 28px;
+}
+
+.t2.play .rem .a1 {
+  padding: 0 0 17px 28px;
+  white-space: normal;
+  line-height: 28px;
+  font-style: italic;
+  font-size: 19px;
+}
+
+.t2.play .rem .a1 span {
+  font-style: normal;
+  color: #217fbb;
+  font-weight: bold;
+}
+
+/*Стили для второго варианта заголовка*/
+.zag2 {
+  margin-top: 10px;
+  float: left;
+  clear: both;
+  width: 100%;
+  border-bottom: 1px solid #E2E2E2;
+  padding-bottom: 13px;
+}
+
+.zag2 div {
+  background: #F6F6F6;
+}
+
+.zag2 h2 {
+  color: #fff;
+  background: #217FBB;
+  width: 350px;
+  margin: 0;
+  font-weight: normal;
+  padding: 14px 0px 18px 15px;
+  font-size: 31px;
+  line-height: 35px;
+}
+
+/*!!!*/
+.t2 .lesson>p {
+  padding-right: 25px;
+} /*Чуть подравниваем столбцы, делая искуственный отступ от фона справа*/
+/*!!!*/
+
+#content>.t2:last-child {
+  margin-bottom: 0;
+}
+
+/*Стили базовой ссылки в виде кнопки, которая может быть разных цветов*/
+a.podt {
+  background: #217FBB;
+  color: #FFFFFF;
+  float: left;
+  font-size: 25px;
+  line-height: 32px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 308px;
+  height: 50px;
+  cursor: pointer;
+  font-family: 'Open Sans','sans-serif';
+  text-decoration: none;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  padding: 6px 0 0 0;
+  text-align: center;
+  margin-left: 43px!important;
+} /* Пишем сюда отступ второго столбца "таблицы" */
+
+/*Перебитые стили для желтой таблицы t1*/
+.t1.yellow {
+  border: 1px solid #EFA94C;
+  background: url(img/yellow1.png) left repeat-y;
+}
+
+.yellow .number {
+  background: #EFA94C;
+}
+
+.yellow a.podt {
+  background: #EFA94C;
+}
+
+/*Перебитые стили для зеленой таблицы t1*/
+.t1.green {
+  border: 1px solid #B3CB9E;
+  background: url(img/green1.png) left repeat-y;
+}
+
+.green .number {
+  background: #86BA59;
+}
+
+.green a.podt {
+  background: #86BA59;
+}
+
+/*Перебитые стили для желтой таблицы t2*/
+.t2.yellow {
+  border: 1px solid #EFA94C;
+  background: url("img/yellow1.png") repeat-y;
+}
+
+.t2.yellow p {
+  color: #f07524;
+}
+
+.bottomview {
+  text-align: center;
+  float: left;
+  width: 100%;
+  margin-top: 43px;
+}
+
+.bottomview img {
+  margin-top: 25px;
+}
+
+footer .logo {
+  margin-top: 10px;
+}
+
+footer .menu {
+  margin-top: 12px;
+}
+
+footer .first>a {
+  margin-top: 40px;
+}
+
+footer .enter {
+  margin-top: -8px;
+}
+
+footer a.ontop {
+  background: url("img/ontop.jpg") no-repeat scroll 0 0 transparent;
+  bottom: 28px;
+  display: block;
+  font-size: 0;
+  height: 50px;
+  position: absolute;
+  right: 11px;
+  width: 50px;
+}
+
+.enter.auth {
+  text-align: right;
+  width: 250px;
+  margin-top: 13px;
+}
+
+.enter.auth a.name {
+  display: block;
+  float: right;
+  font-size: 17px;
+  height: 19px;
+  text-transform: none;
+  width: auto;
+  margin-top: 13px;
+}
+
+.licon {
+  background: url("img/man.png") no-repeat scroll 0 0 transparent;
+  float: right;
+  height: 12px;
+  margin-right: 5px;
+  margin-top: 19px;
+  width: 12px;
+}
+
+.enter.auth a.out1, .enter.auth a.out2 {
+  color: #474b50;
+  font-family: 'Open Sans','sans-serif';
+  font-size: 13px;
+  text-decoration: underline;
+  float: right;
+  text-transform: none;
+  width: auto;
+  margin-left: 8px;
+  margin-top: 8px;
+  border-bottom-width: 0 !important;
+}
+
+footer .enter.auth {
+  margin-top: 11px;
+}
+
+.ontop.auth {
+  right: 0;
+}
+
+/*!!PAGE STYLES!!*/
+body.page {
+  background: url(img/lin2.jpg) 0 143px repeat-x;
+}
+
+#content.forpage {
+  width: 1185px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.breadcrumb {
+  margin-top: 12px;
+}
+
+.breadcrumb a {
+  background: url("img/bread.png") no-repeat scroll right 5px transparent;
+  color: #474B50;
+  font-size: 11px;
+  margin-right: 4px;
+  padding-right: 8px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.breadcrumb a.last {
+  color: #0b7e02;
+}
+
+.page footer {
+  clear: both;
+  height: 212px;
+  padding-top: 100px;
+}
+
+@media screen and (max-width:1203px) {
+  .p2>div {
+    width: 504px;
+    float: left;
+    font-size: 31px;
+    line-height: 35px;
+  }
+
+  .p2>div:nth-child(2) {
+    width: 502px;
+  }
+
+  .t1, .t1.yellow, .t1.green {
+    background-position: -89px 0;
+  }
+
+  .t2, .t2.yellow {
+    background-position: -89px 0;
+  }
+
+  .t2.play {
+    background-position: -89px 0;
+  }
+
+  header {
+    width: 1006px;
+  }
+
+  footer {
+    width: 1006px;
+  }
+
+  #content.forpage {
+    width: 1006px;
+  }
+
+  .menu a {
+    margin-right: 10px;
+  }
+
+  .menu a.last {
+    margin-right: 0;
+  }
+
+  header .menu a {
+    margin-right: 10px;
+    font-size: 15px;
+    height: 21px;
+  }
+
+  .enter {
+    margin-right: 5px;
+  }
+
+  .logo {
+    width: 314px;
+  }
+
+  .inclean {
+    width: 600px;
+  }
+
+  .enter.auth {
+    width: 175px;
+  }
+
+  .ontop.auth {
+    right: 5px;
+  }
+
+  .breadcrumb {
+    margin-left: 5px;
+  }
+}
